@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack serve --env development",
-    "start_prod": "webpack serve --env production",
-    "build": "webpack --env production",
+   "build": "webpack --env production",
     "test": "jest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
