@@ -1,0 +1,31 @@
+body {
+  background-image: url(c46cec3183000e834980.jpg);
+  background-color: #d0cdcd;
+  background-size: cover;
+  display: flex;
+}
+
+#game-board {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#game-board div {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background: #7a412f;
+  margin: 25px;
+  border-radius: 50%;
+}
+
+#game-board div img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
